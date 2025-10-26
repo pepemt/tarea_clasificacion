@@ -1,0 +1,55 @@
+# Ignorar archivos del entorno virtual
+.venv/
+venv/
+env/
+
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignorar archivos del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorar modelos descargados
+*.pth
+*.pt
+
+# Ignorar archivos temporales
+*.tmp
+*.temp
+
+# Ignorar logs
+*.log
+
+# Ignorar dataset si es muy grande (opcional)
+# dataset/
