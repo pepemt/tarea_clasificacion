@@ -1,25 +1,25 @@
-# 🧠 Recomendador de Tenis Jordan con CLIP
+# Recomendador de Tenis Jordan con CLIP
 
 ## Descripción del Proyecto
 Este proyecto utiliza el modelo CLIP (Contrastive Language-Image Pretraining) de OpenAI para crear un sistema de recomendación de tenis Jordan. El sistema puede:
 
-- 🔍 **Clasificar** una imagen de tenis en 31 modelos diferentes de Jordan
-- 🛍️ **Recomendar** los tenis más parecidos visualmente del catálogo
-- 📝 **Describir** las características visuales detectadas en la imagen
+- **Clasificar** una imagen de tenis en 31 modelos diferentes de Jordan
+- **Recomendar** los tenis más parecidos visualmente del catálogo
+- **Describir** las características visuales detectadas en la imagen
 
 ## Características Principales
 
-### ✨ Data Augmentation
+### Data Augmentation
 - Utiliza flip horizontal para mayor robustez
 - Combina embeddings de imagen original y volteada
 - Mejora la invarianza a orientación
 
-### 🎯 Clasificación Multimodal
+### Clasificación Multimodal
 - Compara embeddings de imagen vs texto
 - 31 clases de modelos Jordan predefinidas
 - Sistema de confianza basado en similitud coseno
 
-### 🖼️ Análisis Visual Detallado
+### Análisis Visual Detallado
 - Descripción automática de características
 - Detección de colores, materiales y estilos
 - Top 3 características con porcentajes de confianza
