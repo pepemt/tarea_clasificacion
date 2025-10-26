@@ -37,23 +37,6 @@ tarea1/
 └── README.md            # Este archivo
 ```
 
-## Instalación
-
-1. Clona el repositorio:
-```bash
-git clone https://github.com/pepemt/tarea_clasificacion.git
-cd tarea_clasificacion
-```
-
-2. Instala las dependencias:
-```bash
-pip install -r requirements.txt
-```
-
-3. Ejecuta el código:
-```bash
-python clasificacion_v2.py
-```
 
 ## Uso
 
