@@ -13,6 +13,7 @@ import os
 import numpy as np
 from tqdm import tqdm
 import matplotlib.pyplot as plt
+from pprint import pprint
 
 # ======================================================
 # 1 Cargar modelo CLIP (modelo preentrenado de OpenAI)
@@ -218,14 +219,8 @@ recomendar("prueba.webp", top_k=5)
 # 🔟 Conclusiones (para la rúbrica)
 # ======================================================
 print("\n📘 CONCLUSIONES:")
-print("""
-El modelo CLIP (Contrastive Language-Image Pretraining) permite representar imágenes y texto 
-en un mismo espacio semántico. Esto se aprovechó para clasificar imágenes de tenis Jordan en 31 clases
-y recomendar los modelos más visualmente parecidos.
+pprint("""
+El uso de CLIP demuestra el potencial de los modelos multimodales para unir comprensión visual y semántica textual sin necesidad de entrenamiento supervisado específico para cada clase. Esto permite ampliar fácilmente el sistema a nuevos modelos de tenis simplemente añadiendo descripciones textuales, sin requerir retraining completo.
 
-Gracias al uso de Data Augmentation (flip horizontal), se mejoró la robustez de los embeddings,
-haciendo el sistema menos sensible a variaciones en la orientación de las imágenes.
-
-Este enfoque demuestra cómo un modelo preentrenado puede ser utilizado 
-para construir un recomendador de productos sin necesidad de reentrenar redes neuronales desde cero.
+Gracias a la representación embebida compartida de CLIP, el sistema puede incorporar nuevas imágenes o categorías sin cambios estructurales. Esto lo hace ideal para catálogos en crecimiento o adaaptaciones a nuestra aplicación comerciales donde se agregan productos frecuentemente, manteniendo bajos costos de mantenimiento y entrenamiento. De igual forma, nos permite expandir la tiendaa y no quedarnos en ropa solaamente. Permitiendo tener nuevos usuarios y entrar más de lleno en el mundo del retail.
 """)
