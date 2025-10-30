@@ -57,7 +57,10 @@ recomendar("mi_imagen.jpg", use_augmentation=False)
 - **NumPy**: Operaciones numéricas
 
 ## Autor
-José Tahuilan
+- José Tahuilan (A01747922)
+- Yose Sotomayor (A01750908)
+- Daniel Bernal (A01750047)
+- Carlos Zamudio (A01799283)
 
 ## Conclusiones
 
