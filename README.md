@@ -61,4 +61,6 @@ José Tahuilan
 
 ## Conclusiones
 
-El modelo CLIP permite representar imágenes y texto en un mismo espacio semántico, facilitando la clasificación y recomendación basada en similitud visual. El uso de Data Augmentation mejora significativamente la robustez del sistema ante variaciones de orientación.
+El uso de CLIP demuestra el potencial de los modelos multimodales para unir comprensión visual y semántica textual sin necesidad de entrenamiento supervisado específico para cada clase. Esto permite ampliar fácilmente el sistema a nuevos modelos de tenis simplemente añadiendo descripciones textuales, sin requerir retraining completo.
+
+Gracias a la representación embebida compartida de CLIP, el sistema puede incorporar nuevas imágenes o categorías sin cambios estructurales. Esto lo hace ideal para catálogos en crecimiento o adaaptaciones a nuestra aplicación comerciales donde se agregan productos frecuentemente, manteniendo bajos costos de mantenimiento y entrenamiento. De igual forma, nos permite expandir la tiendaa y no quedarnos en ropa solaamente. Permitiendo tener nuevos usuarios y entrar más de lleno en el mundo del retail.
